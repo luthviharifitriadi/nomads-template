@@ -6,11 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
 
 </head>
 <body>
     <div class="container">
-        <nav class="row"></nav>
+        <nav class="row navbar-expand-lg navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/logo.png" alt="logo Nomads">
+            </a>
+            <button 
+                class="navbar-toggler navbar-toggler-right" 
+                type="button" 
+                data-toogle="collapse" 
+                data-target="#navb"
+            >
+                <span class="navbar-toogler icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Paket Travel</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                            Service
+                        </a>
+                        <div  class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Testimonial</a>
+                    </li>
+                    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+                </ul>
+            </div>
+        </nav>
     </div>
     <script src="frontend/libraries/jquery/jquery-3.6.1.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
