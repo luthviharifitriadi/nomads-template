@@ -41,3 +41,35 @@ body {
         color: #fff;
     }
 }
+
+header {
+    padding: 180px 0px 165px;
+    margin-top: -70px;
+    background-image: url('../images/header-background@2x.jpg');
+    background-size: cover;
+
+    h1,
+    p {
+        color: #fff;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #ff9e53;
+        color: #fff;
+
+        &:hover {
+            background-color: #FFAA69;
+            color: #fff;
+        }
+    }
+}
