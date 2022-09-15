@@ -330,8 +330,17 @@ header {
         }
 
         p {
-            font-size: 11px;
+            font-size: 18px;
             color: #B1b1b1;
+        }
+
+
+
+        h3 {
+            font-weight: 300;
+            font-size: 14px;
+            color: #071C4D;
+
         }
 
         .trip-informations {
@@ -346,12 +355,16 @@ header {
                 font-size: 18px;
                 color: #B1b1b1;
             }
-        }
 
-        h3 {
-            font-weight: 600;
-            font-size: 14px;
-            color: #071C4D;
+            .text-blue {
+                color: #071c4d;
+                font-weight: bold;
+            }
+
+            .text-orange {
+                color: #FF9E53;
+                font-weight: bold;
+            }
 
         }
 
@@ -359,6 +372,47 @@ header {
             font-weight: 300;
             font-size: 14px;
             color: #B1b1b1;
+        }
+
+        .payment-instructions {
+            font-weight: 300;
+            font-size: 14px;
+            color: #B1b1b1;
+        }
+
+        .bank {
+            .bank-item {
+                h3 {
+                    font-size: 18px;
+                    color: #071C4D;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    margin-bottom: 0;
+                }
+
+                .description {
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+
+                    p {
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #071C4D;
+
+                    }
+
+
+                }
+            }
+
+            .bank-image {
+                width: 45px;
+                height: 45px;
+                float: left;
+            }
         }
 
         .gj-datepicker {
@@ -382,6 +436,7 @@ header {
                 color: #fff;
             }
         }
+
     }
 
     .card-right {
